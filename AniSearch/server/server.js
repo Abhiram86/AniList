@@ -14,7 +14,7 @@ dotenv.config()
 const app = express();
 
 const PORT = process.env.PORT || 3001;
-const dburl = process.env.DATABASE_URL;
+const dburl = "mongodb+srv://Abhiram:8186087139@cluster0.r8gp8sq.mongodb.net/AniList?retryWrites=true&w=majority";
 
 app.use(cors());
 const route = express.Router();
