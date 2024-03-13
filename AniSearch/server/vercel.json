@@ -10,12 +10,7 @@
     {
       "src": "/(.*)",
       "dest": "server.js",
-      "methods": ["GET", "POST", "PUT"]
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
+      "methods": ["GET", "POST", "PUT"],
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
