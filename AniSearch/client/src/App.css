@@ -150,8 +150,10 @@
   border-radius: 2px;
   width: fit-content;
   padding: 2px;
-  position: absolute;
-  transform: translate(20px, 0px);
+  position: relative;
+  top: 4.5rem;
+  left: 1rem;
+  /* transform: translate(20px, 0px); */
 }
 
 .anime-img {
@@ -161,6 +163,8 @@
   justify-content: center;
   height: 26rem;
   margin-top: 5rem;
+  position: relative;
+  bottom: 5rem;
 }
 
 .bookmark {
@@ -187,6 +191,7 @@
   -1px -1px 1px red;
   width: 25rem;
   margin-inline: auto;
+  z-index: 10;
 }
 
 .rating {
