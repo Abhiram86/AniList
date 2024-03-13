@@ -118,7 +118,7 @@
 }
 
 .anime-card {
-  max-width: 25rem;
+  width: 25rem;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -178,10 +178,6 @@
 .anime-poster:hover {
   opacity: 0.25;
   scale: 0.95;
-}
-
-.title {
-  text-align: center;
 }
 
 .rating {
@@ -376,10 +372,19 @@ form > img:hover, form > img:active{
   .anime-card{
     max-width: 23rem;
   }
+  .likes-and-episodes{
+    gap: 8rem;
+  }
 }
 
 @media(width < 365px){
   .anime-card{
     width: 21rem;
+  }
+  .likes-and-episodes{
+    gap: 6rem;
+  }
+  .title{
+    font-size: .75rem;
   }
 }
