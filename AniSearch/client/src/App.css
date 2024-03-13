@@ -180,6 +180,14 @@
   scale: 0.95;
 }
 
+.title{
+  text-shadow: 1px 1px 1px red,
+  1px -1px 1px red,
+  -1px 1px 1px red,
+  -1px -1px 1px red;
+  text-wrap:balance;
+}
+
 .rating {
   display: flex;
   flex-direction: row;
